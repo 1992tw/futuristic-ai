@@ -4,14 +4,183 @@
   "title": "Designing Futuristic AI: Real-World Applications",
   "status": "pending",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Project: Design a Futuristic AI Solution",
+    "objective": "Conceptualize and outline a futuristic AI solution for a real-world problem.",
+    "expectedCapabilities": [
+      "Analyze real-world issues",
+      "Design an AI framework",
+      "Address ethical concerns in AI design"
+    ],
+    "submissionInstructions": "Submit a PDF document with flowcharts, problem analysis, and ethical considerations.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Conceptualize AI Solution",
+        "description": "Prepare a document detailing the AI application concept, including potential benefits and challenges.",
+        "codeExample": "N/A",
+        "_id": "68706d01e3c478d16c488515"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Select a Real-World Problem",
+            "description": "Choose a problem from the provided list or propose your own with approval.",
+            "codeExample": "N/A",
+            "_id": "68706d01e3c478d16c488512"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Design an AI Framework",
+            "description": "Outline the architecture of your AI solution using flowcharts and diagrams.",
+            "codeExample": "N/A",
+            "_id": "68706d01e3c478d16c488513"
+          },
+          {
+            "taskNumber": 3,
+            "title": "Evaluate Ethical Considerations",
+            "description": "Discuss potential ethical concerns related to your AI use case.",
+            "codeExample": "N/A",
+            "_id": "68706d01e3c478d16c488514"
+          }
+        ],
+        "_id": "68706d01e3c478d16c488511"
+      }
+    ],
+    "checklist": [
+      "Problem selected",
+      "AI framework designed",
+      "Ethical considerations evaluated",
+      "Submission prepared"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What is the first step in designing an AI solution?",
+        "options": [
+          "Identifying a problem",
+          "Choosing tools",
+          "Coding"
+        ],
+        "answer": "Identifying a problem",
+        "_id": "68706d01e3c478d16c48850f"
+      },
+      {
+        "question": "Why are ethical considerations important in AI design?",
+        "options": [
+          "To enhance functionality",
+          "To ensure social acceptance and responsibility",
+          "To reduce costs"
+        ],
+        "answer": "To ensure social acceptance and responsibility",
+        "_id": "68706d01e3c478d16c488510"
+      }
+    ]
   },
-  "subsections": [],
-  "supplementalVideos": [],
-  "podcastUrl": null
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Overview of Current AI Applications",
+      "content": "This subsection covers the current landscape of AI applications across various industries. AI is revolutionizing sectors such as healthcare with predictive diagnostics, finance with algorithmic trading, and transportation with autonomous vehicles. Each application has unique models tailored to solve specific problems efficiently.",
+      "videoUrl": "http://video.com/currentAIApplications",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://builtin.com/artificial-intelligence/current-applications-of-ai"
+      ],
+      "quizzes": [
+        {
+          "question": "Which industry is utilizing AI for predictive diagnostics?",
+          "options": [
+            "Finance",
+            "Healthcare",
+            "Agriculture"
+          ],
+          "answer": "Healthcare",
+          "_id": "68706d01e3c478d16c488508"
+        }
+      ],
+      "_id": "68706d01e3c478d16c488507"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Emerging AI Technologies",
+      "content": "A dive into emerging AI technologies such as Quantum Computing in AI, Neuromorphic Computing, and Adaptive AI Systems. These technologies are set to redefine computational limits and efficiency, accelerating AI processing capabilities.",
+      "videoUrl": "http://video.com/emergingAITechnologies",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://towardsdatascience.com/emerging-ai-technologies"
+      ],
+      "quizzes": [
+        {
+          "question": "What is Neuromorphic Computing inspired by?",
+          "options": [
+            "Neural networks",
+            "Biological brain",
+            "Quantum physics"
+          ],
+          "answer": "Biological brain",
+          "_id": "68706d01e3c478d16c48850a"
+        }
+      ],
+      "_id": "68706d01e3c478d16c488509"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Building Scalable AI Systems",
+      "content": "Learn the architectural considerations for designing scalable AI systems that grow with data and computational needs. Topics include data pipeline architecture, scalability in AI model training, and distributed computation using frameworks like TensorFlow and PyTorch.",
+      "videoUrl": "http://video.com/buildingScalableAISystems",
+      "codeExamples": [
+        "import tensorflow as tf\nmodel = tf.keras.models.Sequential([tf.keras.layers.Dense(units=128, activation='relu', input_shape=(input_shape,))])"
+      ],
+      "externalLinks": [
+        "https://www.tensorflow.org/tutorials"
+      ],
+      "quizzes": [
+        {
+          "question": "Which framework is commonly used for distributed AI computation?",
+          "options": [
+            "TensorFlow",
+            "Numpy",
+            "Flask"
+          ],
+          "answer": "TensorFlow",
+          "_id": "68706d01e3c478d16c48850c"
+        }
+      ],
+      "_id": "68706d01e3c478d16c48850b"
+    },
+    {
+      "subsectionOrder": 4,
+      "title": "Identifying Real-World Problems Solvable by AI",
+      "content": "Engage in identifying and analyzing real-world problems that could potentially benefit from AI-driven solutions. Critical thinking is necessary to evaluate which problems present feasible challenges for AI technologies considering ethical and practical aspects.",
+      "videoUrl": "http://video.com/realWorldAIProblems",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://ai.googleblog.com"
+      ],
+      "quizzes": [
+        {
+          "question": "What should be considered when identifying AI-solvable problems?",
+          "options": [
+            "Scalability",
+            "Ethical implications",
+            "Cost efficiency",
+            "All of the above"
+          ],
+          "answer": "All of the above",
+          "_id": "68706d01e3c478d16c48850e"
+        }
+      ],
+      "_id": "68706d01e3c478d16c48850d"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/introToAIApplications"
+  ],
+  "references": [
+    "https://towardsdatascience.com",
+    "https://www.tensorflow.org/"
+  ]
 }
